@@ -26,12 +26,81 @@ body {
   bottom: 7px;
   left: 0;
   transition: 0.2s;
-  
 }
-.lg_menu li a:hover::before{
-width: 100%;
-} 
-nav .navbar-toggler{
+.lg_menu li a:hover::before {
+  width: 100%;
+}
+nav .navbar-toggler {
   box-shadow: none !important;
   border: none;
+}
+.banner_img {
+  height: 613px;
+}
+.content h3 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #353535;
+}
+.content h1 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 64px;
+  color: #353535;
+}
+
+.btn_1 {
+  border-radius: 20px;
+  width: 180px;
+  height: 55px;
+  background: #fc0;
+  color: white;
+  border: none;
+  outline: none;
+}
+.btn_1:hover {
+  background: transparent;
+  color: #000;
+  border: 2px solid #000;
+}
+.btn_2 {
+  border-radius: 20px;
+  width: 180px;
+  height: 55px;
+  outline: none;
+  background: transparent;
+  margin-left: 20px;
+}
+.btn_2:hover {
+  background: #fc0;
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+}
+.follow {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 180%;
+  color: #353535;
+  font-family: var(--font-family);
+}
+
+.icon span i {
+  padding: 10px 11px;
+}
+.icon span {
+  border-radius: 50%;
+  background: rgba(216, 210, 210, 0.503);
+  display: inline-block;
+}
+.banner{
+  position: relative;
+}
+.mouse  span i{
+  font-size: x-large;
+color: rgb(152, 157, 157);
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  transform: translateX(-50%);
 }
