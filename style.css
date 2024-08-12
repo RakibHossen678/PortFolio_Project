@@ -141,24 +141,53 @@ nav .navbar-toggler {
   padding: 13px 25px;
   border-radius: 15px;
 }
-.about_content a:hover{
+.about_content a:hover {
   background: #fc0;
   color: white;
   border: none;
 }
-.round{
+.round {
   position: absolute;
-  bottom:  0;
+  bottom: 0;
   right: 195px;
+}
+#Quality {
+  margin: 80px 0;
+}
+.quality_content {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+}
+.quality_content h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 180%;
+  text-align: center;
+  color: #353535;
+  padding-top: 9px;
+}
+.quality_content p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  text-align: center;
+  color: #7a7a7a;
 }
 @media (max-width: 768px) {
   .mouse {
     visibility: hidden;
   }
-  .round{
+  .round {
     visibility: hidden;
   }
-  .about_image{
+  .about_image {
     width: 100%;
     height: 100%;
   }
