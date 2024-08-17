@@ -541,6 +541,40 @@ nav .navbar-toggler {
 }
 /* Newsletter */
 
+/* footer */
+footer {
+  background: #575757;
+  padding: 70px 0;
+  
+}
+.call {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: justify;
+  color: #bbb9b9;
+}
+.number {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  color: #fff;
+}
+.let {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 200%;
+  color: #fff;
+}
+.para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: justify;
+  color: #bbb9b9;
+}
+/* footer */
+
 @media (max-width: 768px) {
   .mouse {
     visibility: hidden;
@@ -630,16 +664,14 @@ nav .navbar-toggler {
   .blog-header {
     font-size: 24px;
   }
-  .news{
-    padding:40px 20px;
+  .news {
+    padding: 40px 20px;
   }
   .newsField input {
-    
     padding: 15px 20px;
   }
-  
+
   .newsField button {
-  
     padding: 15px 10px;
   }
 }
