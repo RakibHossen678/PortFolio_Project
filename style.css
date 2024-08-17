@@ -4,6 +4,11 @@
   --second-family: "PT Sans", sans-serif;
   --third-family: "Potta One", sans-serif;
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: var(--font-family);
 }
@@ -329,6 +334,67 @@ nav .navbar-toggler {
 }
 /* Skills */
 
+/* service */
+#service {
+  margin-bottom: 90px;
+  background-color: #fff7d5;
+  padding: 71px 0;
+}
+.service_header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.service_header h1 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: #353535;
+  padding-bottom: 10px;
+}
+.service_header p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: center;
+  color: #7a7a7a;
+}
+.service_content {
+  background: #ffffff;
+  padding: 30px 48px 50px 48px;
+  width: 350px;
+  border-radius: 12px;
+}
+.service_content img {
+  background-color: #aaf4eb;
+  margin: auto;
+  display: block;
+  padding: 16px;
+  border-radius: 100%;
+  margin-bottom: 15px;
+}
+.service_content h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 180%;
+  text-align: center;
+  color: #353535;
+}
+.service_content p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 180%;
+  text-align: center;
+  color: #7a7a7a;
+}
+.service_content:hover {
+  background: linear-gradient(151deg, #fc0 0%, #ffe476 98.84%);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.06);
+  width: 360px;
+  height: 370px;
+}
+/* service */
+
 @media (max-width: 768px) {
   .mouse {
     visibility: hidden;
@@ -362,5 +428,32 @@ nav .navbar-toggler {
   }
   .branding_image img {
     width: 350px;
+  }
+  .aboutSkill {
+    margin-top: 50px;
+  }
+  .skillName div {
+    width: 100%;
+  }
+  .banner_img {
+    height: 350px;
+  }
+  .banner_row {
+    flex-direction: column-reverse;
+  }
+  .content {
+    margin-top: 40px;
+  }
+  .service_content {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .service_content:last-child {
+    margin-bottom: 0;
+  }
+  .service_content:hover {
+    width: 100%;
+    height: 100%;
   }
 }
