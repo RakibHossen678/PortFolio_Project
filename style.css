@@ -486,6 +486,61 @@ nav .navbar-toggler {
 
 /* blog */
 
+/* Newsletter */
+.news {
+  background: linear-gradient(
+    129.72deg,
+    rgb(255, 204, 0) -21.594%,
+    rgb(255, 245, 203) 112.599%
+  );
+  padding: 70px;
+  border-radius: 20px;
+}
+#newsletter {
+  margin-bottom: 90px;
+}
+.news_content h6 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #353535;
+}
+.news_content h1 {
+  font-weight: 600;
+  font-size: 36px;
+  color: #353535;
+}
+.news_content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #353535;
+}
+
+.newsField input {
+  flex: 1;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  padding: 15px 25px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.newsField button {
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  margin-left: -5px;
+  padding: 15px 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #ff6565;
+  color: white;
+}
+/* Newsletter */
+
 @media (max-width: 768px) {
   .mouse {
     visibility: hidden;
@@ -559,20 +614,32 @@ nav .navbar-toggler {
   .blog_row img {
     width: 100%;
   }
-  .blog_content h5{
+  .blog_content h5 {
     font-size: 12px;
     padding-bottom: 0 !important;
   }
-  .button img{
+  .button img {
     width: 20px;
   }
-  .jhon{
+  .jhon {
     font-size: 12px;
   }
-  .para{
+  .para {
     font-size: 10px;
   }
-  .blog-header{
+  .blog-header {
     font-size: 24px;
+  }
+  .news{
+    padding:40px 20px;
+  }
+  .newsField input {
+    
+    padding: 15px 20px;
+  }
+  
+  .newsField button {
+  
+    padding: 15px 10px;
   }
 }
