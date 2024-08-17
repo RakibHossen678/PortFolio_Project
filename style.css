@@ -24,6 +24,7 @@ nav {
   color: #353535 !important;
   padding: 18px 23px !important;
   display: inline-block;
+  position: relative;
 }
 .lg_menu li a::before {
   content: "";
