@@ -643,6 +643,7 @@ footer {
   background-color: #234bda;
 }
 /* Expert */
+/* Experience */
 #experiece h4 {
   font-weight: 600;
   font-size: 24px;
@@ -685,10 +686,10 @@ footer {
 .row:nth-child(even) .experience_tab::after {
   background-color: #f17676;
 }
-/* Experience */
 
 /* Experience */
 
+/* Responsive design  */
 @media (max-width: 768px) {
   .mouse {
     visibility: hidden;
@@ -807,7 +808,6 @@ footer {
   .experience_tab {
     border-right: none;
     padding-bottom: 30px;
-  
   }
   .experience_tab::before {
     top: -42px;
@@ -820,7 +820,7 @@ footer {
   .experience_row:nth-child(even) .experience_tab::after {
     background-color: #f17676;
   }
-  .experience_row{
+  .experience_row {
     margin-left: 20px;
   }
 }
