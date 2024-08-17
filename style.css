@@ -545,7 +545,6 @@ nav .navbar-toggler {
 footer {
   background: #575757;
   padding: 70px 0;
-  
 }
 .call {
   font-weight: 400;
@@ -574,6 +573,73 @@ footer {
   color: #bbb9b9;
 }
 /* footer */
+
+/* Expert */
+#expert {
+  margin: 100px 0;
+}
+.expert_content h1 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 50px;
+  color: #353535;
+}
+.expert_content p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #7a7a7a;
+}
+.range {
+  margin-top: 40px;
+}
+.name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  color: #353535;
+}
+.percentage {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: right;
+  color: #f16500;
+}
+.progess-1 {
+  background-color: #f16500;
+}
+.percentage-1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: right;
+  color: #03249b;
+}
+.progess-2 {
+  background: #03249b;
+}
+.progess-3 {
+  background-color: #700d60;
+}
+.percentage-2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: right;
+  color: #700d60;
+}
+.percentage-3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  color: #234bda;
+}
+.progess-4 {
+  background-color: #234bda;
+}
+/* Expert */
 
 @media (max-width: 768px) {
   .mouse {
@@ -673,5 +739,17 @@ footer {
 
   .newsField button {
     padding: 15px 10px;
+  }
+  .range {
+    width: 100% !important;
+  }
+  .expert_range {
+    margin-top: 40px;
+  }
+  .expert_para_1 {
+    width: 100% !important;
+  }
+  .expert_para_2 {
+    width: 100% !important;
   }
 }
