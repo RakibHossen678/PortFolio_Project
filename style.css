@@ -366,7 +366,6 @@ nav .navbar-toggler {
   border-radius: 12px;
 }
 .service_content img {
-  background-color: #aaf4eb;
   margin: auto;
   display: block;
   padding: 16px;
@@ -393,7 +392,54 @@ nav .navbar-toggler {
   width: 360px;
   height: 370px;
 }
+.service_img_1 {
+  background-color: #aaf4eb;
+}
+.service_img_2 {
+  background: #fce6fe !important;
+}
+.service_img_3 {
+  background: #fff0ba !important;
+}
 /* service */
+
+/* feedback */
+#feedback {
+  margin-bottom: 90px;
+}
+.feedback_heading {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 135%;
+  color: #353535;
+}
+.feedback_para {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #7a7a7a;
+}
+.feedback_Content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #7a7a7a;
+}
+.feedback_Content h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 200%;
+  color: #353535;
+}
+.feedback_Content span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  text-align: center;
+  color: #7a7a7a;
+}
+/* feedback */
 
 @media (max-width: 768px) {
   .mouse {
